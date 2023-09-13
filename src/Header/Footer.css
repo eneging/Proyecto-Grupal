@@ -1,0 +1,31 @@
+
+.footer{
+    background-color: rgb(144, 212, 197);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Barlow', sans-serif;
+    margin-bottom: 15px;
+
+}
+.titulo{
+    color:hsl(167, 40%, 24%);
+    text-decoration: wavy;
+    padding: 20px;
+}
+.about{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 5rem;
+    padding: 20px;
+}
+.redes{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 3rem;
+    padding: 20px;
+}
