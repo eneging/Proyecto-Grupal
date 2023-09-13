@@ -1,7 +1,13 @@
 
 function Main2() {
   return (
-    <div>Main2</div>
+    <div id="principal">
+<div>
+  <img src="" alt="" srcset="" />
+  
+</div>
+
+    </div>
   )
 }
 

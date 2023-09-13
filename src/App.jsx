@@ -1,12 +1,13 @@
 
 import './App.css'
+import Main2 from './Header/Main2'
 
 function App() {
  
 
   return (
     <>
-      <h1>hola , mundo</h1>
+      <Main2></Main2>
    
     </>
   )
