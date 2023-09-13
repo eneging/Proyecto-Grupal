@@ -1,4 +1,4 @@
-
+import Header from './Header/Header'
 import './App.css'
 
 import Main2 from './Header/Main2'
@@ -20,12 +20,18 @@ function App() {
   return (
     <>
 
+
       
 
 
 
       <Main></Main>
       <Main2 fnImg1= {imgfresa} fnImg2= {imgnaranja} ></Main2>
+
+      <h1>
+        <Header></Header>
+      </h1>
+
    
 
       <h1>hola , mundo</h1>
