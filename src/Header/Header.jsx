@@ -1,6 +1,6 @@
 
 import './Header.css'
-function Header() {
+function Header({fnImg1}) {
   return (
     <div className='container'>
       <nav>
@@ -13,7 +13,7 @@ function Header() {
           <li>About</li>
           <li>Services</li>
           <li>Projects</li>
-          <li>Contact</li>
+          <li className='btn-n'>Contact</li>
         </ul> 
         
         
@@ -22,7 +22,8 @@ function Header() {
        
       </nav>
       <h1 className='h1-c'> WE ARE CREATIVES</h1>
-      <img className='img-naranja' src="./src/assets/desktop/image-header.jpg"></img>
+      <i className="fa-solid fa-arrow-down" id="flecha"></i>
+      <img className='img-naranja' src={fnImg1}></img>
     </div>
   )
 }
