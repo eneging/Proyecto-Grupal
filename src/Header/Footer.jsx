@@ -1,33 +1,50 @@
+import '../Header/Footer.css'
 
 
 function Footer() {
   return (
     <>
-    <div>
-      <footer>
+      <div className="footer">
+        <footer>
           <div>
-              <h2>sunnyside</h2>
-              <ul>
-                  <li>About</li>
-                  <li>Services</li>
-                  <li>Projects</li>
-              </ul>
-              <ul>
-                  <li><a href="#"><img src="" alt="facebook"/></a></li>
-                  <li><a href="#"><img src="" alt="instagram"/></a></li>
-                  <li><a href="#"><img src="" alt="twiter"/></a></li>
-                  <li><a href="#"><img src="" alt="Pintrest"/></a></li>
-              </ul>
-              
+            <h2 className="titulo">sunnyside</h2>
           </div>
-      </footer>
-
-
-
-
-    </div>
+          <div>
+            <ul className="about">
+              <li>About</li>
+              <li>Services</li>
+              <li>Projects</li>
+            </ul>
+          </div>
+          <div>
+            <ul className="redes">
+              <li>
+                <a href="#">
+                  <img src="../src/assets/icon-facebook.svg" alt="facebook" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../src/assets/icon-instagram.svg" alt="instagram" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../src/assets/icon-twitter.svg" alt="twiter" />
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img src="../src/assets/icon-pinterest.svg" alt="Pintrest" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          
+        </footer>
+      </div>
     </>
-  )
+  );
 }
 
-export default Footer
+export default Footer;
