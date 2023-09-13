@@ -1,6 +1,11 @@
 
 import './App.css'
+<<<<<<< HEAD
 import Footer from './Header/Footer'
+
+import './Header/Main.jsx'
+import Main from './Header/Main.jsx'
+
 
 
 function App() {
@@ -10,9 +15,13 @@ function App() {
     <>
       <h1>hola , mundo</h1>
 
+
       <Footer></Footer>
 
-     
+
+      <Main></Main>
+   
+
 
     </>
   )
