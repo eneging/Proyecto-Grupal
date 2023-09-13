@@ -1,10 +1,28 @@
 
-
+import './Header.css'
 function Header() {
   return (
-    <div>
-        <h1>Header</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At enim dolor sequi quo vitae ad blanditiis assumenda ipsum nulla velit delectus, iste suscipit aspernatur tempore ullam! Vitae ratione sint alias nulla at quibusdam perspiciatis fugit deleniti magnam hic iste consequatur incidunt asperiores accusantium quasi illo reiciendis magni, vel necessitatibus iusto voluptatum. Eaque necessitatibus enim quibusdam similique non molestias, tempora corrupti tempore ipsa aperiam accusamus? Animi praesentium unde officiis, amet, quasi inventore sed ducimus, cumque voluptatibus odio ipsum error laudantium! Quos sequi minima tempore totam, numquam dolores perspiciatis repellat, distinctio eaque similique necessitatibus non consequuntur ab reiciendis fuga veritatis, suscipit amet.</p>
+    <div className='container'>
+      <nav>
+         <div>
+        <h1>sunnyside</h1>   </div>
+
+
+
+        <div > <ul className='btn'>
+          <li>About</li>
+          <li>Services</li>
+          <li>Projects</li>
+          <li>Contact</li>
+        </ul> 
+        
+        
+        </div>
+        
+       
+      </nav>
+      <h1 className='h1-c'> WE ARE CREATIVES</h1>
+      <img className='img-naranja' src="./src/assets/desktop/image-header.jpg"></img>
     </div>
   )
 }

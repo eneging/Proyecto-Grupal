@@ -1,0 +1,44 @@
+nav{
+    
+
+    display: flex;
+    justify-content: space-evenly
+    ;gap:47rem;
+    height: 5vw;
+    align-items: center;
+    background-color: rgb(61, 190, 255);
+    color:white
+}
+
+ h1{font-size: 30px;
+ }
+
+.btn{
+    display: flex;
+  
+    list-style: none;
+    gap: 3rem;
+   
+}
+
+.h1-c{
+    color:white;
+    position: relative;
+    top:10vw;
+    font-size: 3.5rem;
+}
+
+.img-naranja{
+   	height: 40vw;
+    width: 75vw;
+	overflow: hidden;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(61, 190, 255) ;
+}
