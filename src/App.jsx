@@ -1,6 +1,6 @@
 
 import './App.css'
-<<<<<<< HEAD
+
 import Footer from './Header/Footer'
 
 import './Header/Main.jsx'
@@ -16,11 +16,11 @@ function App() {
       <h1>hola , mundo</h1>
 
 
-      <Footer></Footer>
+      
 
 
       <Main></Main>
-   
+      <Footer></Footer>
 
 
     </>
