@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer">
         <footer>
           <div>
-            <h2 className="titulo">sunnyside</h2>
+            <h1 className="titulo">sunnyside</h1>
           </div>
           <div>
             <ul className="about">
