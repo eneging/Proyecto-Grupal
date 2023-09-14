@@ -7,7 +7,7 @@ import imgnaranja from "./assets/desktop/image-photography.jpg";
 import naranja from './assets/desktop/image-header.jpg'
 import huevo from './assets/desktop/image-transform.jpg'
 import copa from './assets/desktop/image-stand-out.jpg'
-import Footer from './Header/footer/Footer'
+import Footer from './Header/footer/Footer';
 import './Header/Main.jsx'
 import Main from './Header/Main.jsx'
 import Comentario from './Header/comentario/Comentario';

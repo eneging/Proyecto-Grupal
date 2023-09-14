@@ -1,4 +1,4 @@
-import '../Header/Footer.css'
+import './Footer.css'
 import facebook from './icon-facebook.svg'
 import instagram from './icon-instagram.svg'
 import twiter from './icon-twitter.svg'
