@@ -15,6 +15,23 @@ width: 50%;
 background-color: aliceblue;
 }
 
+.todo1 h2{
+
+font-size: larger;
+
+}
+
+.todo1 h3{
+    
+}
+
+.todo1 h4{
+   
+    width: 80%;
+    height: 10vw;
+    font-size: 25px;
+    font-weight: 200;
+}
 
 
 .container-1{

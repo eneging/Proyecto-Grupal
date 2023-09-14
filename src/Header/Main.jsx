@@ -8,8 +8,12 @@ function Main({fnImg1, fnImg2}) {
      
      
       <div className="todo1">
+
+
         <h2>Transform your brand</h2>
+
         <h4>We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through visuals that do most of the marketing for you.</h4>
+        
         <h3>LEARN MORE</h3>
       </div>
 
