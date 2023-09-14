@@ -8,7 +8,7 @@ function Comentario() {
    
           
     <div className="card">
-        <h1> CLIENT TESTIMONIALS</h1>
+        <h1 className='h1-titulo'> CLIENT TESTIMONIALS</h1>
         <div>
          <img  className="img" src={emily}  ></img>
          <p>parrafo</p>
@@ -25,7 +25,7 @@ function Comentario() {
         <div className='card'>
 
 
-        <h1> CLIENT TESTIMONIALS</h1>
+        <h1 className='h1-titulo'> CLIENT TESTIMONIALS</h1>
         <div>
          <img className='img'  src={jennie}></img>
          <p>parrafo</p>
@@ -39,7 +39,7 @@ function Comentario() {
         <div className='card'>
 
 
-        <h1> CLIENT TESTIMONIALS</h1>
+        <h1 className='h1-titulo'> CLIENT TESTIMONIALS</h1>
         <div>
          <img className='img' src={thomas}></img>
          <p>parrafo</p>
