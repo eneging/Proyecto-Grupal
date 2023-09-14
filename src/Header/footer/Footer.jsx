@@ -1,5 +1,8 @@
 import '../Header/Footer.css'
-
+import facebook from './icon-facebook.svg'
+import instagram from './icon-instagram.svg'
+import twiter from './icon-twitter.svg'
+import pintrest from './icon-pinterest.svg'
 
 function Footer() {
   return (
@@ -20,22 +23,22 @@ function Footer() {
             <ul className="redes">
               <li>
                 <a href="#">
-                  <img src="../src/assets/icon-facebook.svg" alt="facebook" />
+                  <img src={facebook} alt="facebook" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="../src/assets/icon-instagram.svg" alt="instagram" />
+                  <img src={instagram} alt="instagram" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="../src/assets/icon-twitter.svg" alt="twiter" />
+                  <img src={twiter} alt="twiter" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="../src/assets/icon-pinterest.svg" alt="Pintrest" />
+                  <img src={pintrest} alt="Pintrest" />
                 </a>
               </li>
             </ul>
