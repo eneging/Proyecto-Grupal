@@ -12,17 +12,10 @@ flex-direction: column;
 gap: 5rem;
 align-items: center;
 width: 50%;
+background-color: aliceblue;
 }
 
-.todo4{
-    width: 50%;
-    display: flex;
-justify-content: center;
-flex-direction: column;
-gap: 5rem;
-align-items: center;
-width: 50%;
-}
+
 
 .container-1{
    

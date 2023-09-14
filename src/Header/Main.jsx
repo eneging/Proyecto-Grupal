@@ -28,7 +28,7 @@ function Main({fnImg1, fnImg2}) {
       <img src={fnImg2} />
       </div>
 
-      <div className="todo4">
+      <div className="todo1">
         <h2>Stand out to the right audience</h2>
         <h4>Using a collaborative formula of designers, researchers, photographers, videographers, and copywrites, we'll build and extend your brand in digital places</h4>
         <h3>LEARN MORE</h3>
