@@ -5,12 +5,12 @@ import Main2 from './Header/Main2'
 import imgfresa from "./assets/desktop/image-graphic-design.jpg";
 import imgnaranja from "./assets/desktop/image-photography.jpg";
 import naranja from './assets/desktop/image-header.jpg'
-
+import huevo from './assets/desktop/image-transform.jpg'
+import copa from './assets/desktop/image-stand-out.jpg'
 import Footer from './Header/Footer'
-
 import './Header/Main.jsx'
 import Main from './Header/Main.jsx'
-import Comentario from './Header/Comentario';
+import Comentario from './Header/comentario/Comentario';
 
 
 
@@ -22,7 +22,7 @@ function App() {
     <>
 
       <Header fnImg1= {naranja}></Header>
-      <Main></Main>
+      <Main fnImg1= {huevo} fnImg2= {copa}></Main>
       <Main2 fnImg1= {imgfresa} fnImg2= {imgnaranja} ></Main2>
 
      

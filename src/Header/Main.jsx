@@ -1,6 +1,6 @@
 import './Main.css'
 
-function Main() {
+function Main({fnImg1, fnImg2}) {
   return (
     <div className="todo">
 
@@ -15,7 +15,7 @@ function Main() {
 
 
       <div className="todo2">
-      <img src="./src/assets/desktop/image-transform.jpg" />
+      <img src={fnImg1} />
       </div>
 
 </div>
@@ -25,7 +25,7 @@ function Main() {
       
 
       <div className="todo3">
-      <img src="./src/assets/desktop/image-stand-out.jpg" />
+      <img src={fnImg2} />
       </div>
 
       <div className="todo4">
