@@ -10,6 +10,7 @@ import Footer from './Header/Footer'
 
 import './Header/Main.jsx'
 import Main from './Header/Main.jsx'
+import Comentario from './Header/Comentario';
 
 
 
@@ -27,7 +28,7 @@ function App() {
      
        
       
-      
+      <Comentario></Comentario>
       <Footer></Footer>
 
 
