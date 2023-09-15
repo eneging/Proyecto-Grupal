@@ -1,6 +1,10 @@
 import "./Main2.css";
 function Main2(props) {
   return (
+
+<div className="container-2frutas">
+
+   
     <div id="principal">
       <div id="img1">
         <img id="imagen" src={props.fnImg1} alt="..." />
@@ -10,7 +14,12 @@ function Main2(props) {
           your brand message and captures potential clients attention
         </p>
       </div>
-      <div id="img2">
+
+</div>
+
+<div>
+
+      <div id="img1">
         <img id="imagen" src={props.fnImg2} alt="..." />
         <h2 id="titulo">Photography</h2>
         <p id="description">
@@ -19,6 +28,8 @@ function Main2(props) {
         </p>
       </div>
     </div>
+    </div>
+
   );
 }
 

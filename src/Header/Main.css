@@ -21,16 +21,14 @@ font-size: larger;
 
 }
 
-.todo1 h3{
-    
-}
 
 .todo1 h4{
-   
+   text-align: center;
     width: 80%;
     height: 10vw;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 200;
+     
 }
 
 
